@@ -16,7 +16,7 @@ class TestCases(unittest.TestCase):
 
     def test_camera(self):
         self.camera_info = rospy.wait_for_message('/cameras/right_hand_camera/camera_info', CameraInfo, 3)
-        self.assertEqual(self.camera_info.width, 800)
+        self.assertEqual(self.camera_info.width, 1280)
 
 
     def test_left_gripper(self):
