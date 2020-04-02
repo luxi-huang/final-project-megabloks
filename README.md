@@ -25,12 +25,6 @@ For this project, Baxter assembles a MEGA BLOKS pyramid from the blocks provided
 - Programmed Baxter grippers to close and open to grab the Lego pyrimid. 
 - Using force control in Moveit to force on baxter grippers. 
 
-### Dependencies:
-- This package uses the rethink_ws "package" provided via .rosinstall file from Matt
-- This package also uses a fork of "moveit_robots"
-	- uri: git@github.com:apinosky/moveit_robots.git
-	- branch: melodic-devel
-
 ### ROS Packages and Libraries:
 - Computer Vision:
 	- AR Tags
