@@ -20,10 +20,10 @@ For this project, Baxter assembles a MEGA BLOKS pyramid from the blocks provided
 6. As a double check, the gripper hand is pushed against the block to ensure that the block is pushed in, which is applied by Force control in MoveIt.
 6. Baxter repeats steps 3 and 6 until the pyramid is complete.
 
-### My Contribution: 
-- Designed Baxter robot Path-planing trajectory by applying Moveit and inverse kinematics, modifed joint velocity limits and scalling to meet desired performance. 
-- Programmed Baxter grippers to close and open to grab the Lego pyrimid. 
-- Using force control in Moveit to force on baxter grippers. 
+### My contribution:
+- Designed Baxter robot Path-planing trajectory by applying Moveit and inverse kinematics modified joint velocity limits and scaling to meet desired performance.
+- Programmed Baxter grippers to close and open to grab the Lego pyramid.
+- Using force control in Moveit to force on Baxter grippers.
 
 ### ROS Packages and Libraries:
 - Computer Vision:
